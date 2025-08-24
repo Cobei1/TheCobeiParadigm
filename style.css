@@ -1,0 +1,38 @@
+/* css/style.css */
+.hero {
+    background-color: #1E3A8A; /* Dark blue background */
+    padding: 100px 0; /* Matches inline styling */
+    color: #ffffff; /* White text */
+}
+
+.hero p.lead {
+    margin-bottom: 20px; /* Space between lead paragraphs */
+    font-size: 1.25rem; /* Bootstrap default for .lead */
+    max-width: 800px; /* Optional: constrain width for readability */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Assuming Roboto from Google Fonts */
+}
+
+/* Ensure navigation and footer match homepage */
+.navbar {
+    background-color: #1E3A8A; /* Match navbar color if not already set */
+}
+
+footer {
+    background-color: #1E3A8A; /* Match footer color if not already set */
+    color: #ffffff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 0; /* Reduce padding on smaller screens */
+    }
+    .hero p.lead {
+        font-size: 1.1rem; /* Slightly smaller text on mobile */
+    }
+}
